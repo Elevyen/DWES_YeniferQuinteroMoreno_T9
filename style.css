@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 feb 2026, 12:16:57
+    Author     : Elevyen
+*/
+#container_gato form {
+    float: inline-start;
+    margin-right: 10px;
+}
+div#container_gato {
+    display: table-cell;
+    background: linear-gradient(45deg, #9999fb, #9eedff);
+    margin: 30px;
+    padding: 10px;
+    border: 5px inset #c6b4f3;
+    float: left;
+    width: max-content;
+}
+div#container_json {
+    padding: 10px;
+    border: 5px inset #c6b4f3;
+    display: flow;
+    background: linear-gradient(-45deg, #cbf5ff, #ceceff);
+    width: 1200px;
+}
+div#container_json pre{
+    font-family: "Chewy", system-ui;
+    color: #290073;
+}
+button {
+    border-radius: 12px;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Chewy", system-ui;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #2222d1;
+    background-color: lavender;
+}
+h2 {
+    color: #4927ad;
+    font-family: "Chewy", system-ui;
+}
+h3 {
+    color: #6342c5;
+    font-family: "Chewy", system-ui;
+}
+h1 {
+    font-family: "Chewy", system-ui;
+    color: #290073;
+}
